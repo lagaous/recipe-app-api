@@ -1,6 +1,7 @@
 version: "3"
 
 services:
+  bigfox: $UID:$GID
   app:
     build:
       context: .
